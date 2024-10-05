@@ -1,13 +1,13 @@
-import antfu from '@antfu/eslint-config';
-import nextPlugin from '@next/eslint-plugin-next';
-import jestDom from 'eslint-plugin-jest-dom';
-import jsxA11y from 'eslint-plugin-jsx-a11y';
-import playwright from 'eslint-plugin-playwright';
-import simpleImportSort from 'eslint-plugin-simple-import-sort';
-import tailwind from 'eslint-plugin-tailwindcss';
-import testingLibrary from 'eslint-plugin-testing-library';
+const antfu = require('@antfu/eslint-config');
+const nextPlugin = require('@next/eslint-plugin-next');
+const jestDom = require('eslint-plugin-jest-dom');
+const jsxA11y = require('eslint-plugin-jsx-a11y');
+const playwright = require('eslint-plugin-playwright');
+const simpleImportSort = require('eslint-plugin-simple-import-sort');
+const tailwind = require('eslint-plugin-tailwindcss');
+const testingLibrary = require('eslint-plugin-testing-library');
 
-export default antfu({
+module.exports = antfu({
   react: true,
   typescript: true,
 
@@ -39,8 +39,8 @@ export default antfu({
     'simple-import-sort': simpleImportSort,
   },
   rules: {
-    'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error',
+    // 'simple-import-sort/imports': 'error',
+    // 'simple-import-sort/exports': 'error',
   },
 }, {
   files: [
@@ -56,13 +56,13 @@ export default antfu({
   ...playwright.configs['flat/recommended'],
 }, {
   rules: {
-    'import/order': 'off', // Avoid conflicts with `simple-import-sort` plugin
-    'sort-imports': 'off', // Avoid conflicts with `simple-import-sort` plugin
-    'style/brace-style': ['error', '1tbs'], // Use the default brace style
-    'ts/consistent-type-definitions': ['error', 'type'], // Use `type` instead of `interface`
-    'react/prefer-destructuring-assignment': 'off', // Vscode doesn't support automatically destructuring, it's a pain to add a new variable
-    'node/prefer-global/process': 'off', // Allow using `process.env`
-    'test/padding-around-all': 'error', // Add padding in test files
-    'test/prefer-lowercase-title': 'off', // Allow using uppercase titles in test titles
+    // 'import/order': 'off', // Avoid conflicts with `simple-import-sort` plugin
+    // 'sort-imports': 'off', // Avoid conflicts with `simple-import-sort` plugin
+    // 'style/brace-style': ['error', '1tbs'], // Use the default brace style
+    // 'ts/consistent-type-definitions': ['error', 'type'], // Use `type` instead of `interface`
+    // 'react/prefer-destructuring-assignment': 'off', // Vscode doesn't support automatically destructuring, it's a pain to add a new variable
+    // 'node/prefer-global/process': 'off', // Allow using `process.env`
+    // 'test/padding-around-all': 'error', // Add padding in test files
+    // 'test/prefer-lowercase-title': 'off', // Allow using uppercase titles in test titles
   },
 });

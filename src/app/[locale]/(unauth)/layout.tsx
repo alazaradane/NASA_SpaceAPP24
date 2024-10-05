@@ -5,6 +5,7 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 import { DemoBanner } from '@/components/DemoBanner';
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import { BaseTemplate } from '@/templates/BaseTemplate';
+import Home from '@/components/Home';
 
 export default function Layout(props: {
   children: React.ReactNode;
@@ -16,6 +17,7 @@ export default function Layout(props: {
   return (
     <>
       <DemoBanner />
+      <Home/>
       <BaseTemplate
         leftNav={(
           <>
