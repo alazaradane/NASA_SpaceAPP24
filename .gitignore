@@ -7,7 +7,7 @@
 
 # Database
 *.db
-
+/server/node_modules
 # testing
 /coverage
 
