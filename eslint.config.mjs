@@ -1,13 +1,13 @@
-import antfu from '@antfu/eslint-config';
-import nextPlugin from '@next/eslint-plugin-next';
-import jestDom from 'eslint-plugin-jest-dom';
-import jsxA11y from 'eslint-plugin-jsx-a11y';
-import playwright from 'eslint-plugin-playwright';
-import simpleImportSort from 'eslint-plugin-simple-import-sort';
-import tailwind from 'eslint-plugin-tailwindcss';
-import testingLibrary from 'eslint-plugin-testing-library';
+const antfu = require('@antfu/eslint-config');
+const nextPlugin = require('@next/eslint-plugin-next');
+const jestDom = require('eslint-plugin-jest-dom');
+const jsxA11y = require('eslint-plugin-jsx-a11y');
+const playwright = require('eslint-plugin-playwright');
+const simpleImportSort = require('eslint-plugin-simple-import-sort');
+const tailwind = require('eslint-plugin-tailwindcss');
+const testingLibrary = require('eslint-plugin-testing-library');
 
-export default antfu({
+module.exports = antfu({
   react: true,
   typescript: true,
 

@@ -20,7 +20,7 @@ const ExoplanetFilter = ({ exoplanets }: { exoplanets: any[] }) => {
 
   return (
     <>
-      <div className="w-[30rem] my-5 flex gap-5">
+      <div className="w-[30rem] my-5 flex gap-5 pl-[3rem]">
         <Input 
           placeholder="search by name..." 
           value={searchTerm} 
@@ -45,7 +45,7 @@ const ExoplanetFilter = ({ exoplanets }: { exoplanets: any[] }) => {
         <Button className="bg-purple text-primary">Go 🚀</Button>
       </div>
 
-      <div className="flex flex-wrap gap-6 bg-black h-screen">
+      <div className="flex flex-wrap gap-6 bg-black h-screen pl-[3rem]">
         {filteredExoplanets.map((planet) => (
           <ExoCard key={planet.pl_name} planet={planet} />
         ))}
