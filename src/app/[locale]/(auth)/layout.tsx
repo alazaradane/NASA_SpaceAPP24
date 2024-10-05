@@ -2,6 +2,7 @@ import { enUS, frFR } from '@clerk/localizations';
 import { ClerkProvider } from '@clerk/nextjs';
 
 import { AppConfig } from '@/utils/AppConfig';
+import Navbar from '@/components/Home/Navbar';
 
 export default function AuthLayout(props: {
   children: React.ReactNode;
@@ -33,6 +34,7 @@ export default function AuthLayout(props: {
       signUpFallbackRedirectUrl={dashboardUrl}
       afterSignOutUrl={afterSignOutUrl}
     >
+      <Navbar/>
       {props.children}
     </ClerkProvider>
   );

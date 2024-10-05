@@ -37,7 +37,7 @@
     "incremental": true,
 
     // Load types
-    "types": ["vitest/globals"],
+    "types": ["vitest/globals", "node"],
 
     // Path aliases
     "baseUrl": ".",
@@ -55,11 +55,13 @@
   },
   "exclude": [
     "./out/**/*",
+    "node_modules",
     "./node_modules/**/*",
     "**/*.spec.ts",
     "**/*.e2e.ts"
   ],
   "include": [
+    "src/**/*",
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
