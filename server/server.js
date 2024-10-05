@@ -31,10 +31,12 @@ app.post('api/webhook', bodyParser.raw({type: 'application/json'}), async functi
         console.log(`User ${id} was ${eventType}`);
         const full_name = `${attributes.first_name} ${attributes.last_name}`
         const email = attributes.email_addresses.email_address
+        const pwd = attributes.email_addresses.password
         const ClerkUser_id = attributes.id
         const user = new ClientschemaModel({
           full_name: full_name,
           email: email,
+          pwd:pwd,
           ClerkUser_id: ClerkUser_id,
         }
         )
