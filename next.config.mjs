@@ -24,6 +24,9 @@ export default withSentryConfig(
       },
       poweredByHeader: false,
       reactStrictMode: true,
+      images: {
+        domains: ['images.unsplash.com', 'assets.aceternity.com','i.pinimg.com'], 
+      },
       experimental: {
         serverComponentsExternalPackages: ['@electric-sql/pglite'],
       },

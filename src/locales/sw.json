@@ -1,0 +1,74 @@
+{
+  "RootLayout": {
+    "home_link": "Nyumbani",
+    "about_link": "Kuhusu",
+    "counter_link": "Kipima",
+    "portfolio_link": "Wasifu",
+    "sign_in_link": "Ingia",
+    "sign_up_link": "Jisajili"
+  },
+  "BaseTemplate": {
+    "description": "Msimbo wa kuanzia kwa Nextjs Boilerplate yako na Tailwind CSS",
+    "made_with": "Imetengenezwa na <author></author>."
+  },
+  "Index": {
+    "meta_title": "Uwasilishaji wa Next.js Boilerplate",
+    "meta_description": "Next.js Boilerplate ni msimbo bora wa kuanzia kwa mradi wako. Jenga programu yako ya React kwa kutumia fremu ya Next.js.",
+    "sponsors_title": "Wadhamini"
+  },
+  "Counter": {
+    "meta_title": "Kipima",
+    "meta_description": "Mfano wa operesheni ya DB",
+    "loading_counter": "Inapakia kipima...",
+    "error_reporting_powered_by": "Kuripoti makosa kunatolewa na"
+  },
+  "CounterForm": {
+    "presentation": "Kipima kinahifadhiwa kwenye hifadhidata na huongezwa kwa thamani unayotoa.",
+    "label_increment": "Ongeza kwa",
+    "button_increment": "Ongeza"
+  },
+  "CurrentCount": {
+    "count": "Idadi: {count}"
+  },
+  "About": {
+    "meta_title": "Kuhusu",
+    "meta_description": "Maelezo ya ukurasa Kuhusu",
+    "about_paragraph": "Karibu kwenye ukurasa wetu wa Kuhusu! Sisi ni timu ya watu wenye shauku waliojitolea kuunda programu nzuri.",
+    "translation_powered_by": "Tafsiri imetolewa na"
+  },
+  "Portfolio": {
+    "meta_title": "Wasifu",
+    "meta_description": "Karibu kwenye ukurasa wangu wa wasifu!",
+    "presentation": "Karibu kwenye ukurasa wangu wa wasifu! Hapa utapata mkusanyo ulioteuliwa kwa uangalifu wa kazi na mafanikio yangu. Kupitia wasifu huu, ninataka kuonyesha ujuzi wangu, ubunifu, na thamani ninayoweza kuleta kwenye miradi yako.",
+    "portfolio_name": "Wasifu {name}",
+    "error_reporting_powered_by": "Kuripoti makosa kunatolewa na",
+    "coverage_powered_by": "Mafuniko ya msimbo yametolewa na"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Wasifu {slug}",
+    "meta_description": "Maelezo ya wasifu {slug}",
+    "header": "Wasifu {slug}",
+    "content": "Imetengeneza seti ya vifaa vya matangazo na vipengele vya chapa kwa tukio la shirika. Iliunda mandhari ya umoja wa kuona, ikijumuisha nembo, mabango, mabango, na mali za dijiti. Iliunganisha kitambulisho cha chapa ya mteja huku ikiingiza njia ya kisasa na ubunifu. Ilipokea maoni mazuri kutoka kwa washiriki wa tukio, na kusababisha tukio lenye mafanikio na ushiriki mkubwa wa washiriki na kuongezeka kwa mwonekano wa chapa.",
+    "log_management_powered_by": "Usimamizi wa kumbukumbu umetolewa na"
+  },
+  "SignIn": {
+    "meta_title": "Ingia",
+    "meta_description": "Ingia kwenye akaunti yako kwa urahisi kupitia mchakato wetu wa kuingia unaofaa."
+  },
+  "SignUp": {
+    "meta_title": "Jisajili",
+    "meta_description": "Tengeneza akaunti yako kwa urahisi kupitia mchakato wetu wa usajili wenye angavu."
+  },
+  "Dashboard": {
+    "meta_title": "Dashibodi",
+    "hello_message": "Habari {email}!"
+  },
+  "UserProfile": {
+    "meta_title": "Wasifu wa Mtumiaji"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Dashibodi",
+    "user_profile_link": "Simamia akaunti yako",
+    "sign_out": "Ondoka"
+  }
+}
