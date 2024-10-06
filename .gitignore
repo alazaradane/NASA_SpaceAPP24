@@ -9,6 +9,7 @@
 # Database
 *.db
 /server/node_modules
+/server/custom-gemini/node_modules
 # testing
 /coverage
 
