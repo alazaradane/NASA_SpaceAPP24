@@ -17,6 +17,10 @@ app.get("/", function rootHandler(req, res) {
   res.end("Hello world!");
 });
 
+app.get("/api/webhook", function rootHandler(req,res){
+    res.end("Hello Fetih! I'm fucking functioning!!")
+});
+
 app.post('api/webhook', bodyParser.raw({type: 'application/json'}), async function (req,res){
     try {
       const payloadString = req.body.toString();
