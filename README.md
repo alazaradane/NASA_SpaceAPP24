@@ -15,15 +15,15 @@ Let's now examine the operation and use of our web application. Please accept ou
 
 ## Demo
 
-**Quick Overview: [Overview Video](https://youtu.be/4cWEyxc7iu0?si=SScXseQHAa0LA9L2)**
+1. **Quick Overview: [Overview Video](https://youtu.be/4cWEyxc7iu0?si=SScXseQHAa0LA9L2)**
 
-**Landing Page: [Landing Page Demo]()**
-**Personalized Exoplanet Chatbot: [GenAI Exoplanets]()**
-**View Exoplanet: [AladinAPI for NightSky]()**
-**Interactive Quiz with Flashcard Study and Leaderboard: [Interactive Quiz]()**
-**Community Forum: [Discussion, Event, and Connect]()**
-**Opportunities: [NASA and Space Partner Space Programs and Citizen Projects]()**
-**NASA APOD: [Daily Email on Astronomy Pictures of Day]()**
+2. **Landing Page: [Landing Page Demo](https://youtu.be/IiR2tbuQjvk)**
+3. **Personalized Exoplanet Chatbot: [GenAI Exoplanets](https://youtu.be/4O7d7HT55kI)**
+4. **View Exoplanet: [AladinAPI for NightSky](https://youtu.be/7roVWvb6RMA)**
+5. **Interactive Quiz with Flashcard Study and Leaderboard: [Interactive Quiz](https://youtu.be04II5YHZw5A)**
+6. **Community Forum: [Discussion, Event, and Connect](https://youtu.be/99BMhRrWVtQ)**
+7. **Opportunities: [NASA and Space Partner Space Programs and Citizen Projects](https://youtu.be/IiR2tbuQjvk)**
+8. **NASA APOD: [Daily Email on Astronomy Pictures of Day](https://youtu.be/IiR2tbuQjvk)**
 
 
 ### Features
