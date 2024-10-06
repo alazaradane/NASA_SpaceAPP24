@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { PaperAirplaneIcon } from '@heroicons/react/24/outline';
 
 interface Message {
-  text: string;
+  text: string | any;
   sender: 'user' | 'bot';
 }
 
@@ -13,13 +13,28 @@ const Chat: React.FC = () => {
   const [input, setInput] = useState('');
 
   // Handle sending messages
-  const handleSendMessage = () => {
+  const handleSendMessage = async () => {
     if (input.trim()) {
       const newMessage: Message = { text: input, sender: 'user' };
       setMessages(prevMessages => [...prevMessages, newMessage]);
 
       
       setInput('');
+
+      const response = await fetch('http://localhost:8000/api/chatbot', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ input }),
+      });
+  
+      if (response.ok) {
+        const data =  response.json();   
+  
+        const botResponse: Message = { text: data, sender: 'bot' };
+        setMessages(prevMessages => [...prevMessages, botResponse]);
+      }
 
       
       setTimeout(() => {
