@@ -4,7 +4,8 @@ import type { Metadata } from 'next';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
-import { DemoBadge } from '@/components/DemoBadge';
+
+// import { DemoBadge } from '@/components/DemoBadge';
 import { AppConfig } from '@/utils/AppConfig';
 
 export const metadata: Metadata = {
@@ -17,17 +18,17 @@ export const metadata: Metadata = {
       rel: 'icon',
       type: 'image/png',
       sizes: '32x32',
-      url: '/favicon-32x32.png',
+      url: '@/public/assets/images/util.png',
     },
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '16x16',
-      url: '/favicon-16x16.png',
+      url: '@/public/assets/images/util.png',
     },
     {
       rel: 'icon',
-      url: '/favicon.ico',
+      url: '@/public/assets/images/util.png',
     },
   ],
 };
@@ -52,9 +53,7 @@ export default function RootLayout(props: {
           locale={props.params.locale}
           messages={messages}
         >
-          {props.children}
-
-          <DemoBadge />
+          {props.children}   
         </NextIntlClientProvider>
       </body>
     </html>

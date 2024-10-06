@@ -6,6 +6,9 @@ import {Pacifico} from 'next/font/google'
 import { TimelineDemo } from './TimelineDemo';
 import RocketMotion from '../Rocket';
 import Earth from './Earth';
+import Footer from '../Footer';
+import Newsletter from '../Newsletter';
+
 
 export const pacifico = Pacifico({
   weight: '400',
@@ -44,15 +47,15 @@ const Land = () => {
         <HeroVideoDialog
           className="dark:hidden block"
           animationStyle="top-in-bottom-out"
-          videoSrc="https://www.youtube.com/embed/7ATtD8x7vV0?si=g_n2Bs3hjsfqOoJn"
-          thumbnailSrc="https://startup-template-sage.vercel.app/hero-light.png"
+          videoSrc="https://www.youtube.com/embed/0ZOhJe_7GrE?si=Lcw7PjF9H0mm70JD"
+          thumbnailSrc="https://images-assets.nasa.gov/image/PIA23408/PIA23408~orig.jpg?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint"
           thumbnailAlt="Hero Video"
         />
         <HeroVideoDialog
           className="hidden dark:block"
           animationStyle="top-in-bottom-out"
-          videoSrc="https://www.youtube.com/embed/7ATtD8x7vV0?si=g_n2Bs3hjsfqOoJn"
-          thumbnailSrc="https://startup-template-sage.vercel.app/hero-dark.png"
+          videoSrc="https://www.youtube.com/embed/0ZOhJe_7GrE?si=Lcw7PjF9H0mm70JD"
+          thumbnailSrc="https://images-assets.nasa.gov/image/PIA23408/PIA23408~orig.jpg?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint"
           thumbnailAlt="Hero Video"
         />
       </div>
@@ -67,6 +70,12 @@ const Land = () => {
       <div className=' w-[35%]'>
         <p className=' text-4xl font-bold'>Get involve in Exoplanet Projects</p>
       </div>
+    </div>
+    <div>
+      <Newsletter/>
+    </div>
+    <div className=' px-4'>
+      <Footer/>
     </div>
     </div>
   )

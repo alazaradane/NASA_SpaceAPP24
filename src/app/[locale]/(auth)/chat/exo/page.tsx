@@ -29,7 +29,7 @@ const ExoplanetsPage = async () => {
         </p>
       </div>
       
-      {/* Pass fetched data to the client component */}
+      
       <ExoplanetFilter exoplanets={exoplanets} />
     </section>
   );

@@ -8,7 +8,7 @@ import { LocaleSwitcher } from '../LocaleSwitcher'
 const navigation = [
   { name: 'Home', href: '#', current: true },
   { name: 'Explore', href: '#', current: false },
-  { name: 'Opportunities', href: '#', current: false },
+  { name: 'Opportunities', href: '/opp', current: false },
   { name: 'About Us', href: '#', current: false },
   { name: 'Contact Us', href: '#', current: false },
 ]
