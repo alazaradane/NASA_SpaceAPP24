@@ -31,7 +31,7 @@ const ExoCard = ({ planet }:any) => {
           </p>
         </CardContent>
         <CardFooter>
-          <Link href={`/planets/${pl_name}`}>
+          <Link href={`/chat/exo/${pl_name}`}>
             <Button className="bg-purple text-primary">Start Chat</Button>
           </Link>
         </CardFooter>
