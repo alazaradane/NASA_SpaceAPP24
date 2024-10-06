@@ -4,12 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
-/server/chat-bot/venv
+/server/custom-gemini/node_modules
+/server/node_modules
 
 # Database
 *.db
-/server/node_modules
-/server/custom-gemini/node_modules
+
 # testing
 /coverage
 
