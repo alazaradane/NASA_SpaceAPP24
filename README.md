@@ -24,6 +24,7 @@ Let's now examine the operation and use of our web application. Please accept ou
 6. **Community Forum: [Discussion, Event, and Connect](https://youtu.be/99BMhRrWVtQ)**
 7. **Opportunities: [NASA and Space Partner Space Programs and Citizen Projects](https://youtu.be/IiR2tbuQjvk)**
 8. **NASA APOD: [Daily Email on Astronomy Pictures of Day](https://youtu.be/IiR2tbuQjvk)**
+9. **NASA APOD Email: [Daily Email on Astronomy Pictures of Day](https://drive.google.com/file/d/12lQ1ttIQ9P9mASrvIZrUI_XVDQgWaYXG/view?usp=sharing)**
 
 
 ### Features
