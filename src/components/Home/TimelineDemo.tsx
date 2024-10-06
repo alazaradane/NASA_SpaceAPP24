@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
-import { astro, bubble, llm, neon, nept, saturn, teledark, telescope, uranus } from "@/public/assets/images";
+import { astro, astronomer, bubble, community, glassastro, llm, mtele, neon, nept, saturn, teledark, telescope, uranus } from "@/public/assets/images";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import ChatExo1 from "../rive/chatexo1";
@@ -120,6 +120,50 @@ export function TimelineDemo() {
             />
             <Image
               src={teledark}
+              alt="cards template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "Join The Ultimatum Community 🚀",
+      content: (
+        <div>
+          <p className="text-primary text-md  mb-4">
+          Discuss with other exoplanet study enthusiast, host events, connect with students, and ask experts about exoplanets.
+          </p>
+          <Link href={'/community'}>
+            <Button className="bg-purple text-primary my-4">Join Community</Button>
+          </Link>
+         
+          <div className="grid grid-cols-2 gap-4">
+            <Image
+              src={mtele}
+              alt="hero template"
+              width={400}
+              height={400}
+              className="rounded-lg object-cover  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={astronomer}
+              alt="feature template"
+              width={400}
+              height={400}
+              className="rounded-lg object-cover  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={glassastro}
+              alt="bento template"
+              width={400}
+              height={400}
+              className="rounded-lg object-cover  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={community}
               alt="cards template"
               width={500}
               height={500}

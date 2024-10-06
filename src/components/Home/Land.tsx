@@ -10,6 +10,7 @@ import Footer from '../Footer';
 import Newsletter from '../Newsletter';
 import Link from 'next/link';
 import { Button } from '../ui/button';
+import Banner from '../Banner';
 
 
 export const pacifico = Pacifico({
@@ -75,6 +76,9 @@ const Land = () => {
           <Button className='text-primary bg-purple mt-[3rem]'>View Projects</Button>
         </Link>
       </div>
+    </div>
+    <div>
+      <Banner/>
     </div>
     <div>
       <Newsletter/>

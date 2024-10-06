@@ -7,10 +7,10 @@ import { SignedIn } from '@clerk/nextjs'
 import { LocaleSwitcher } from '../LocaleSwitcher'
 const navigation = [
   { name: 'Home', href: '#', current: true },
-  { name: 'Explore', href: '#', current: false },
+  { name: 'Explore', href: '/view/lite', current: false },
   { name: 'Opportunities', href: '/opp', current: false },
-  { name: 'About Us', href: '#', current: false },
-  { name: 'Contact Us', href: '#', current: false },
+  { name: 'Challanges', href: '/quiz', current: false },
+  { name: 'Community', href: '/community', current: false },
 ]
 
 function classNames(...classes:any[]) {
