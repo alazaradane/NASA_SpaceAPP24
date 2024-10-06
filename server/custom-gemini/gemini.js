@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors')
 const bodyParser = require('body-parser');
 
 /*
@@ -24,9 +25,12 @@ const {
 
 const port = process.env.PORT || 8000;
 const app= express()
+
+app.use(cors())
+
 app.use(express.json());
 const MODEL_NAME = "gemini-pro";
-const API_KEY = process.env.API_KEY;
+const API_KEY = process.env.API_KEY || 'AIzaSyBivgPdT0heSAg-tR9LwYUz4Au-uNySYeg';
 
 app.use(bodyParser.json()); // Parse incoming JSON data
 
