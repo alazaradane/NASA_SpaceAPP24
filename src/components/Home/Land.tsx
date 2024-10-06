@@ -8,6 +8,8 @@ import RocketMotion from '../Rocket';
 import Earth from './Earth';
 import Footer from '../Footer';
 import Newsletter from '../Newsletter';
+import Link from 'next/link';
+import { Button } from '../ui/button';
 
 
 export const pacifico = Pacifico({
@@ -69,11 +71,15 @@ const Land = () => {
       </div>
       <div className=' w-[35%]'>
         <p className=' text-4xl font-bold'>Get involve in Exoplanet Projects</p>
+        <Link href={'/opp'} className=' mt-[3rem]'>
+          <Button className='text-primary bg-purple mt-[3rem]'>View Projects</Button>
+        </Link>
       </div>
     </div>
     <div>
       <Newsletter/>
     </div>
+    
     <div className=' px-4'>
       <Footer/>
     </div>
