@@ -13,39 +13,20 @@ const Chat: React.FC = () => {
   const [input, setInput] = useState('');
 
   // Handle sending messages
-  const  handleSendMessage = async() => {
-    const response = await fetch('https://localhost:8000/api/chatbot', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ input }),
-    });
-
-    if (response.ok) {
-      const data = await response.json();   
-
-      const botResponse: Message = { text: data, sender: 'bot' };
-      setMessages(prevMessages => [...prevMessages, botResponse]);
-      
-    }
-
+  const handleSendMessage = () => {
     if (input.trim()) {
       const newMessage: Message = { text: input, sender: 'user' };
       setMessages(prevMessages => [...prevMessages, newMessage]);
 
       
       setInput('');
-      
+
       
       setTimeout(() => {
         const botResponse: Message = { text: "I'm a bot! Let's talk about exoplanets.", sender: 'bot' };
         setMessages(prevMessages => [...prevMessages, botResponse]);
       }, 1000);
     }
-    
-
-    
   };
 
   return (
