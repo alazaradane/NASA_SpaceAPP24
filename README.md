@@ -25,6 +25,10 @@ Let's now examine the operation and use of our web application. Please accept ou
 7. **Opportunities: [NASA and Space Partner Space Programs and Citizen Projects](https://youtu.be/IiR2tbuQjvk)**
 8. **NASA APOD: [Daily Email on Astronomy Pictures of Day](https://youtu.be/IiR2tbuQjvk)**
 9. **NASA APOD Email: [Daily Email on Astronomy Pictures of Day](https://drive.google.com/file/d/12lQ1ttIQ9P9mASrvIZrUI_XVDQgWaYXG/view?usp=sharing)**
+10. **Exoplanet Game: [Exoplanet Mission Game](https://gd.games/instant-builds/85544f85-4c2d-485b-997c-9f87d2ec68d5)**
+11. **3D Intractive Model: [Explore 3D Interactive Model ](https://drive.google.com/file/d/1F_7PHr4MY0DOsSZKsqSOLslqYNyrO-Zt/view)**
+
+
 
 
 ### Features
