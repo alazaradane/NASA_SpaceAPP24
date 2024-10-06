@@ -1,8 +1,10 @@
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 import type { NextFetchEvent, NextRequest } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
+import { RedirectToSignIn } from '@clerk/nextjs';
 
 import { AppConfig } from './utils/AppConfig';
+import Link from 'next/link';
 
 const intlMiddleware = createMiddleware({
   locales: AppConfig.locales,
@@ -14,6 +16,16 @@ const isProtectedRoute = createRouteMatcher([
   '/dashboard(.*)',
   '/:locale/dashboard(.*)',
 ]);
+
+const isPublicRoute = createRouteMatcher(['/sign-in(.*)', '/sign-up(.*)', '/opp(.*)','/games','/quiz'])
+// export function auth_checker(req:any){
+//   if(isPublicRoute(req)==false){
+//     return(
+//       <RedirectToSignIn/>
+//     )
+//   }
+  
+// };
 
 export default function middleware(
   request: NextRequest,
