@@ -25,7 +25,7 @@ export default withSentryConfig(
       poweredByHeader: false,
       reactStrictMode: true,
       images: {
-        domains: ['images.unsplash.com', 'assets.aceternity.com','i.pinimg.com'], 
+        domains: ['images.unsplash.com', 'assets.aceternity.com','i.pinimg.com', 'science.nasa.gov','starlust.org','exoplanets.nasa.gov','www.nasa.gov','d2pn8kiwq2w21t.cloudfront.net','www.esa.int','img.thedailybeast.com','image.khaleejtimes.com','2pn8kiwq2w21t.cloudfront.net'], 
       },
       experimental: {
         serverComponentsExternalPackages: ['@electric-sql/pglite'],
